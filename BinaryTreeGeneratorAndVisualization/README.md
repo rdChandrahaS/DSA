@@ -11,5 +11,13 @@
     TreeGenerator tree = new TreeGenerator();
     TreeNode root = tree.generate();
 ```
-**3. Automatic Cleanup :**
-After the program finishes executing and you close the visualizer window, the terminal will prompt you (y/n) asking if you want to clean up the workspace. If you type y, the cleanup.sh script will automatically run and delete all generated .class files to keep your directory clean.
+
+**3. Automatic Workspace Cleanup :**
+To keep your directory clean of compiled files, use the built-in cleaner utility. Simply call it at the very end of your program, and it will automatically run the cleanup.sh script to delete all .class files without needing any y/n prompts!
+
+```java
+import utility.WorkspaceCleaner;
+
+// Call this at the end of your main method
+WorkspaceCleaner.clean();
+```
