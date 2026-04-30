@@ -1,11 +1,13 @@
 package model;
 
-/**
- * Store graph as :  parent/source -> List<Pair> or childs/destinations , weight
- * int v -> destination
- * int w -> weight
- */
 public class Pair {
+    /**
+     * Definition for a weighted graph node (Edge representation).
+     * <ul>
+     * <li><b>v:</b> vertex</li>
+     * <li><b>w:</b> Edge weight</li>
+     * </ul>
+     */
     public int v;
     public int w;
 

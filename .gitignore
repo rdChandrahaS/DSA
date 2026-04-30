@@ -1,0 +1,29 @@
+# Ignore duplicated utility/generator folders in Tree
+/Tree/generator/
+/Tree/model/
+/Tree/utility/
+
+# Ignore duplicated utility/generator folders in Graph
+# (Included as requested, in case you copy them here later)
+/Graph/generator/
+/Graph/model/
+/Graph/utility/
+
+# ---------------------------------------------------
+# Optional: Standard Java ignores (Highly Recommended)
+# ---------------------------------------------------
+*.class
+*.jar
+*.war
+
+# IDE specific files (Optional but good practice)
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS generated files
+.DS_Store
+Thumbs.db
